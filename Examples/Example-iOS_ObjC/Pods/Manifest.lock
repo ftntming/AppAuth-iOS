@@ -1,0 +1,22 @@
+PODS:
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0):
+    - AppAuth/Core
+
+DEPENDENCIES:
+  - AppAuth (from `../../`)
+  - AppAuth/Core (from `../../`)
+
+EXTERNAL SOURCES:
+  AppAuth:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  AppAuth: aadc4cc25bef2435551896b5bfa9316b42fde656
+
+PODFILE CHECKSUM: a3e6813922d028e9c70dc33ab2f7bf10201cbf33
+
+COCOAPODS: 1.9.3
