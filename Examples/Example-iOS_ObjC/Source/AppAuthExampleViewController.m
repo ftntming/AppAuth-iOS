@@ -28,7 +28,7 @@ typedef void (^PostRegistrationCallback)(OIDServiceConfiguration *configuration,
 
 /*! @brief The OIDC issuer from which the configuration will be discovered.
  */
-static NSString *const kIssuer = @"https://sso.fortivoice-cloud.net/auth/realms/chat.vanaaa.ca";
+static NSString *const kIssuer = @"https://sso.fortivoice-cloud.net/auth/realms/ejabberd.fortivoice-cloud.net";
 
 /*! @brief The OAuth client ID.
     @discussion For client configuration instructions, see the README.
